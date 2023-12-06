@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Halaman login</title>
+  <link rel="stylesheet" href="style.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+  <img src="logo konversi.jpeg" width="500px">
+  <div class="jarak"></div>
+  <div class="wrapper">
+
+      <h1>Login</h1>
+      <div class="input-box">
+        <input type="text" placeholder="Username" required>
+        <box-icon type='solid' name='user-circle'></box-icon>
+      </div>
+      <div class="input-box">
+        <input type="password" placeholder="Password" required>
+        <box-icon type='solid' name='user-circle'></box-icon>
+      </div>
+      <div class="remember-forgot">
+        <label><input type="checkbox">Remember me</label>
+        <a href="#">Forgot password</a>
+      </div>
+      <div>
+        <button class="btn" onclick="redirect()">Login</button>
+        <script>
+          function redirect() {
+            window.location.href = "konversi.html";
+          }
+        </script>
+      </div>
+      
+      <div class="register-link">
+        <p>Dont have any account? <a href="#">Register here</a></p>
+      </div>
+  </div>
+</body>
+</html>
